@@ -1,0 +1,11 @@
+class largest{
+public static void main(String [ ] args){
+int a=123,b=143,c=153;
+if(a>=b&&a>=c)
+System.out.println(a+"a is largest number");
+else if(b>=a&&b>=c)
+System.out.println(b+"b is largest number");
+else
+System.out.println(c+"c is largest number");
+}
+}
